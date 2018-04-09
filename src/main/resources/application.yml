@@ -1,0 +1,15 @@
+server:
+  contextPath: /customer-service
+  port: 4000
+
+api:
+  login:
+    password: ENC(4izI0Q8u73lPIF+lR6SGHA==)
+
+jasypt:
+  encryptor:
+    password: tsa
+
+ldap:
+  url: "Enter your ldap url here"
+  password: "Enter your ldap password here"
